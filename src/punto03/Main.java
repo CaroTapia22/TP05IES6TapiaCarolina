@@ -9,20 +9,19 @@ public class Main {
 
        int factorial = 1;
        int i = numero;
-     if (numero<0 || numero>10) {
-        System.out.println("El numero esta fuera de rango");
-     }else {
-          if (numero==0){
-           factorial = 1 ;
-          }else{
-            while (i>=1) {
-             factorial *= i;
-             i--;
-            }
-           }
-          System.out.println("El factorial de " + numero + " es: " + factorial);
+      if (numero<0 || numero>10) {
+          System.out.println("El numero esta fuera de rango");
+          }else {
+            if (numero==0){
+              factorial = 1 ;
+             }else{
+              while (i>=1) {
+               factorial *= i;
+               i--;
+              }
           }
-          
+          System.out.println("El factorial de " + numero + " es: " + factorial);
+        } 
       sc.close();
      }
-}
+} 
