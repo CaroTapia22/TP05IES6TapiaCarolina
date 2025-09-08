@@ -1,8 +1,8 @@
-package punto05;
-//vamos a importar la clase persona del paquete model
-import model.Persona;
+package punto05.main;
 //es necesario importar la clase LocalDate para poder crear fechas
 import java.time.LocalDate;
+
+import punto05.model.Persona;
 
 public class Main {
 public static void main(String[] args){

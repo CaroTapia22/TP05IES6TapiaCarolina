@@ -1,4 +1,4 @@
-package model;
+package punto05.model;
 import java.time.LocalDate;
 import java.time.Period;
 // clase java denominada persona
@@ -14,7 +14,7 @@ public class Persona {
     public Persona(){
         this.dni = "";
         this.nombre = "";
-        this.fechaNacimiento = null;
+        this.fechaNacimiento = LocalDate.now();
         this.provincia = "";
     }
 
